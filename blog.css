@@ -1,0 +1,141 @@
+body {
+    margin:0;
+    padding:0
+    
+}
+
+h1 {
+    font-size: 100px;
+}
+
+
+.blogtitle {
+    display: flex;
+    font-size: 105px;
+    font-weight: 700;
+    justify-content: center;
+    font-family: 'Peddana', serif;
+    color:darkorange;
+    margin-top: 50px;
+    text-decoration: none;
+   
+
+}
+
+.undertitle {
+    display: flex;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-top: 50px;
+}
+
+.linebreak {
+    width: 66vw;
+    size: 1px;
+    margin-top: 200px;
+    
+}
+.line2{
+    width: 66vw;
+    size: 1px;
+
+}
+
+.blogtext {
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+    font-weight: 600;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-top: 250px;
+}
+
+.blogimage{
+    height: 250px;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    margin-left:380px ;
+    position: absolute;
+    top: 905px;
+}
+
+.content {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 250;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-top: 450px;
+    width: 65vw;
+    margin-left:215px;
+}
+
+.content2 {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 250;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-top: 50px;
+    width: 65vw;
+    margin-left:215px;
+}
+    
+
+.footer {
+    display:flex;
+    position: sticky;
+    height: 500px;
+    width: 100vw;
+    background-color: lightgray;
+    margin-top: 150px;
+
+}
+
+.blogcomment{
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    font-weight: 450;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 500px;
+    margin-top:95px;
+}
+
+#bold{
+    font:bolder;
+    font-weight: 900;
+    font-size: 26px;
+    position: relative;
+    display: inline;
+    justify-self: auto;
+    margin-top: 100px;
+}
+
+#sendmessage {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: 'Peddana', serif;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:darkorange;
+    height: max-content;
+    width: 140px;
+    position:relative;
+    margin-top: 410px;
+   left:-600px;
+
+}

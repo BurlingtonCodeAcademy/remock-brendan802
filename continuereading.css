@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+   
+}
+
+h2{
+    display: flex;
+    font-size:14px;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.continuetitle{
+    position: sticky;
+    display: flex;
+    font-size: 80px;
+    font-weight: 700;
+    justify-content: center;
+    font-family: 'Peddana', serif;
+    color:darkorange;
+    margin-top: 50px; 
+    text-decoration: none;
+}
+
+.linebrk{
+    position: sticky;
+    width: 65vw;
+    size: 1px;
+    margin-top: 180px;
+   
+}
+.linebrk1{
+    position: sticky;
+    width: 65vw;
+    size: 1px;
+    margin-top: 1px;
+}
+h1{
+    display:inline-flex;
+    font-size: 26px;
+    justify-content: left;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 200px;
+    position: sticky;
+}
+
+h3{
+    position: sticky;
+    display: flex;
+    font-size: 26px;
+    justify-content: left;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 540px;
+    margin-top: -65px;
+}
+
+.firstimage{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 600px;
+    margin-left: 240px;
+    margin-top: 50px;
+}
+
+.underimagetext{
+    position: sticky;
+    display: flex;
+    font-size: 22px;
+    justify-content: left;
+    font-weight: 600;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.underimageparagraph {
+    position: sticky;
+    display: flex;
+    font-size: 22px;
+    justify-content: left;
+    font-weight: 500;
+    width:40vw;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 240px;
+    margin-top: 30px;
+
+}
