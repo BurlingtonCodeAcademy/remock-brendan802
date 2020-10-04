@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+
 .learntitle{
     position: sticky;
     display: flex;
@@ -59,6 +67,12 @@ h4{
     position: relative;
     margin-left: 220px;
     top:0px;
+    cursor: pointer;
+}
+h4:hover{
+    color:midnightblue;
+    text-transform: uppercase;
+    
 }
 
 p4{
@@ -109,6 +123,12 @@ h5{
     position: relative;
     margin-left: 220px;
     top:0px;
+    cursor: pointer;
+}
+h5:hover   {
+    
+    color:midnightblue;
+    text-transform: uppercase;
 }
 
 p5{
@@ -159,7 +179,15 @@ h6{
     position: relative;
     margin-left: 220px;
     margin-top:30px;
+    cursor: pointer;
 
+}
+
+h6:hover{
+    color:midnightblue;
+    text-transform: uppercase;
+    border: indigo;
+    
 }
 
 p6{
@@ -268,7 +296,15 @@ h7{
     position: relative;
     margin-left: 220px;
     margin-top:30px;
+    cursor: pointer;
 
+}
+
+h7:hover{
+
+    color:midnightblue;
+    text-transform: uppercase;
+    
 }
 
 .smollbrad{
@@ -444,3 +480,198 @@ p15{
     color: black;
     max-width: 600px;
 }
+
+.footer {
+    display:flex;
+    position: absolute;
+    height: 500px;
+    width: 100vw;
+    background-color: lightgray;
+    top:2400px;
+    margin-bottom:0;
+}
+
+.blogcomment{
+    display: flex;
+    font-size: 28px;
+    font-weight: 450;
+    font-family: 'Peddana', serif;
+    color: black;
+    min-width: 300px;
+    position: relative;
+    left: 390px;
+    margin-top:95px;
+    min-width: 300px;
+}
+
+#bold{
+    font:bolder;
+    font-weight: 900;
+    font-size: 26px;
+    position: relative;
+    display: inline;
+    top:100px;
+     left:330px;
+     min-width: 300px;
+}
+p20{
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: 'Peddana', serif;
+    color: black;
+    max-width: 500px;
+    top: 150px;
+    right: -10px;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -410px;
+    left:-410px;
+}
+
+.text1{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -430px;
+    left:-240px;
+}
+
+.msg{
+    display:flex;
+    position: relative;
+    top:-400px;
+    left:-410px;
+}
+
+.media{
+    height: 30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top: 200px;
+}
+.media1{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:190px;
+
+}
+.media2{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:200px;
+
+}
+
+.media3{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:50px;
+    right:-230px;
+}
+
+.media4{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+.media5{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+.media6{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+#drib{
+position: relative;
+font-size: 10px;
+right:10px;
+bottom:-165px;
+}
+#mail{
+    position: relative;
+    font-size: 10px;
+    right:10px;
+    bottom:-160px;
+
+}
+#fb{
+    position: relative;
+    font-size: 10px;
+    right:10px;
+    bottom:-165px;
+}
+#address{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#IG{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#num{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#twitt{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:100px;
+}
+#sendmessage {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: 'Peddana', serif;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:darkorange;
+    height: max-content;
+    width: 160px;
+    padding:5px 5px;
+    position:relative;
+    top: 400px;
+    left:-885px;
+
+}
+
+#sendmessage:hover{
+background-color:turquoise;
+border-radius: 50%;
+left:50px;
+}
+
