@@ -6,6 +6,7 @@ body {
     height:100%;
     overflow-x: hidden;
     padding-bottom:-200;
+    
 }
 
 .title {
@@ -713,7 +714,9 @@ p18{
     height: 500px;
     width: 100vw;
     background-color: lightgray;
-    margin-top:-950px;
+    margin-top:-750px;
+    clear:both;
+    
 }
 
 
