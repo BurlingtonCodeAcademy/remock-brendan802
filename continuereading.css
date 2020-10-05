@@ -1,0 +1,617 @@
+body{
+    margin:0;
+    padding:0;
+   
+}
+
+h2{
+    display: flex;
+    font-size:14px;
+    justify-content: center;
+    color: black;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.continuetitle{
+    position: sticky;
+    display: flex;
+    font-size: 80px;
+    font-weight: 700;
+    justify-content: center;
+    font-family: 'Peddana', serif;
+    color:darkorange;
+    margin-top: 50px; 
+    text-decoration: none;
+}
+
+.linebrk{
+    position: sticky;
+    width: 65vw;
+    size: 1px;
+    margin-top: 180px;
+   
+}
+.linebrk1{
+    position: sticky;
+    width: 65vw;
+    size: 1px;
+    margin-top: 1px;
+}
+h1{
+    display:inline-flex;
+    font-size: 26px;
+    justify-content: left;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 240px;
+    margin-top: 200px;
+    position: sticky;
+}
+
+h3{
+    position: sticky;
+    display: flex;
+    font-size: 26px;
+    justify-content: left;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    text-transform: uppercase;
+    margin-left: 540px;
+    margin-top: -65px;
+}
+
+.firstimage{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    height: 270px;
+    width: 600px;
+    margin-left: 240px;
+    margin-top: 50px;
+}
+
+.underimagetext{
+    position: sticky;
+    display: flex;
+    font-size: 22px;
+    justify-content: left;
+    font-weight: 600;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+.underimageparagraph {
+    position: sticky;
+    display: flex;
+    font-size: 22px;
+    justify-content: left;
+    font-weight: 500;
+    width:40vw;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 240px;
+    margin-top: 30px;
+
+}
+
+.rightcolumn{
+    display: flex;
+}
+.sidebuttons{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+    margin-left: 920px;
+    bottom: 1910px;
+}
+.columnwrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+h4{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 920px;
+    bottom:1900px;
+    cursor: pointer;
+
+}
+
+h4:hover{
+    color:midnightblue;
+    text-transform: capitalize;
+}
+p4{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 920px;
+    max-width: 280px;
+    position: relative;
+    bottom:1900px;
+
+}
+.sideline{
+    position: sticky;
+    width: 25vw;
+    size: 1px;
+    position: relative;
+    bottom: 1870px;
+    margin-left: 920px;
+}
+.sidebuttons2 {
+    position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+    margin-left: 920px;
+    bottom: 1830px;
+
+}
+h5{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 920px;
+    bottom:1840px;
+    cursor: pointer;
+
+}
+
+h5:hover{
+    color:midnightblue;
+    text-transform: capitalize;
+    }
+
+p5{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 920px;
+    max-width: 280px;
+    position: relative;
+    bottom:1850px;
+}
+
+.nothaline{
+    position: sticky;
+    width: 25vw;
+    size: 1px;
+    position: relative;
+    bottom: 1810px;
+    margin-left: 920px;
+
+}
+
+.sidebuttons3 {
+    position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+    margin-left: 920px;
+    bottom: 1770px;
+
+}
+
+h6{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 920px;
+    bottom:1790px;
+    cursor: pointer;
+
+}
+h6:hover{
+    color:midnightblue;
+    text-transform: capitalize;
+}
+p6{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 920px;
+    max-width: 280px;
+    position: relative;
+    bottom:1830px;
+}
+.andanothaone{
+    position: sticky;
+    width: 25vw;
+    size: 1px;
+    position: relative;
+    bottom: 1775px;
+    margin-left: 920px;
+
+}
+
+.andanothaone2{
+    position: sticky;
+    width: 25vw;
+    size: 1px;
+    position: relative;
+    bottom: 1778px;
+    margin-left: 920px;
+
+}
+
+.supasmall{
+    position: relative;
+    float: left;
+    height:100px;
+    width:100px;
+    bottom:1680px;
+    margin-left:920px;
+}
+
+h7{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 920px;
+    bottom:1700px;
+    cursor: pointer;
+
+}
+h7:hover{
+    color:midnightblue;
+    text-transform: capitalize;
+    
+}
+
+p7{
+    display: flex;
+    float: inline-start;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 1040px;
+    max-width: 250px;
+    position: relative;
+    bottom:1690px;
+}
+p8{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 920px;
+    max-width: 350px;
+    position: relative;
+    bottom:1690px;
+}
+
+.learnsomethings{
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    bottom:1650px;
+    margin-left: 920px;
+}
+
+.chicagoline{
+
+    position: sticky;
+    width: 25vw;
+    size: 1px;
+    position: relative;
+    bottom: 1600px;
+    margin-left: 920px;
+}
+
+h8{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    margin-left: 920px;
+    bottom:1570px;
+    cursor: pointer;
+}
+
+.smoll{
+    position: relative;
+    float: left;
+    height:120px;
+    width:120px;
+    bottom:1550px;
+    margin-left:920px;
+}
+
+p9{
+    display: flex;
+    float: inline-start;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 1060px;
+    max-width: 250px;
+    position: relative;
+    bottom:1550px;
+}
+p10{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 910px;
+    max-width: 410px;
+    position: relative;
+    bottom:1550px;
+}
+
+.learnsomethings2{
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    bottom:1510px;
+    margin-left: 920px;
+}
+
+.footer {
+    display:flex;
+    position: absolute;
+    height: 500px;
+    width: 100vw;
+    background-color: lightgray;
+    top:2800px;
+}
+
+.blogcomment{
+    display: flex;
+    font-size: 28px;
+    font-weight: 450;
+    font-family: 'Peddana', serif;
+    color: black;
+    min-width: 300px;
+    position: relative;
+    left: 390px;
+    margin-top:95px;
+    min-width: 300px;
+}
+
+#bold{
+    font:bolder;
+    font-weight: 900;
+    font-size: 26px;
+    position: relative;
+    display: inline;
+    top:100px;
+     left:330px;
+     min-width: 300px;
+}
+p20{
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: 'Peddana', serif;
+    color: black;
+    max-width: 500px;
+    top: 150px;
+    right: -10px;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -410px;
+    left:-410px;
+}
+
+.text1{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -430px;
+    left:-240px;
+}
+
+.msg{
+    display:flex;
+    position: relative;
+    top:-400px;
+    left:-410px;
+}
+
+.media{
+    height: 30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top: 200px;
+}
+.media1{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:190px;
+
+}
+.media2{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:200px;
+
+}
+
+.media3{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:50px;
+    right:-230px;
+}
+
+.media4{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+.media5{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+.media6{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+#drib{
+position: relative;
+font-size: 10px;
+right:10px;
+bottom:-165px;
+}
+#mail{
+    position: relative;
+    font-size: 10px;
+    right:10px;
+    bottom:-160px;
+
+}
+#fb{
+    position: relative;
+    font-size: 10px;
+    right:10px;
+    bottom:-165px;
+}
+#address{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#IG{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#num{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:90px;
+}
+#twitt{
+    position: relative;
+    font-size: 10px;
+    left:270px;
+    bottom:100px;
+}
+#sendmessage {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: 'Peddana', serif;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:darkorange;
+    height: max-content;
+    width: 160px;
+    padding:5px 5px;
+    position:relative;
+    top: 400px;
+    left:-885px;
+
+}
+
+#sendmessage:hover{
+background-color:turquoise;
+border-radius: 50%;
+left:50px;
+}
+

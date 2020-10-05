@@ -1,0 +1,908 @@
+body {
+    margin:0;
+    padding:0; 
+    text-decoration: none; 
+    max-width:100%;
+    height:100%;
+    overflow-x: hidden;
+    padding-bottom:-200;
+    
+}
+
+.title {
+    font-size:60px;
+    font-weight: normal;
+    font-family: 'Noto Serif', serif;
+    color:darkorange; 
+    font-weight: 600;
+    align-content: center;
+    padding-bottom: 20px;
+    left:340px;
+    position: absolute;
+
+}
+
+h6{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Noto Serif', serif;
+    margin-top: -950px;
+    margin-left: 410px;
+}
+
+.brake{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 60vw;
+    margin-top: 300px;
+}
+
+.brake2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 60vw;  
+}
+
+.headerwords {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 100;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    top: 95px;
+    margin-left:-80px;
+    padding-bottom: 20px;
+}
+.continued{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    top: 49px;
+    margin-left: 265px;
+    padding-bottom: 20px;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Peddana', serif;
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:-250px;
+    top:15px; 
+}
+
+h2 {
+    display:flex;
+    justify-content: center;
+    color: navajowhite;
+    font-size: 50px;
+}
+
+h6 {
+    display: flex;
+    flex-flow: wrap-reverse;
+    font-size: 15px;
+    color: black;
+    font-family: 'Peddana', serif;
+    position: absolute;
+    top:1100px;
+    left:240px;
+}
+
+
+.image-container {
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color:white;
+    flex-direction: row;
+    padding:20px;
+    margin-top: 90px;
+    margin-bottom: 250px;
+    right:-100px;
+}
+
+.images {
+    flex-direction: column;
+    display:flex;
+    position: relative;
+    width:240px; 
+    height:200px;
+    margin-top: auto;
+    padding: 5px;
+    margin-inline: 20px;
+    padding-left: 25px;
+    border-style: initial;   
+}
+
+.imagewrapper{
+    flex-direction:column ;
+    display:flex;
+}
+
+.tellmemore{
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    cursor: pointer;
+    top:350px;
+    right:490px;
+    margin-bottom: 100px;
+    padding:6px 6px;
+}
+
+.tellmemore:hover{
+    background-color:deeppink;
+    transition: ease;
+    transition-duration: .5s;
+}
+
+.hero{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 300px;
+   width:100vw;
+   padding: 40px;
+   box-sizing:border-box;
+   color:white;
+   background-image: url(https://stillwateranglers.com/wp-content/uploads/2017/02/bighorn-river-montana-fly-fishing.jpg);
+
+  }
+  
+  .hero-title {
+    display: flex;
+    max-width: 16em;
+    position: relative;
+    font-size:50px;
+    font-weight:normal;
+    justify-content: right;
+    color:black;
+}
+
+.buttonsecondary{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+   right:-980px;
+   margin-top: 100px;
+
+}
+
+.h5{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    right:-990px;
+    margin-top: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.h5:hover{
+    text-transform: lowercase;
+    font-style: italic;
+
+}
+
+p4{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 990px;
+    margin-top: 10px;
+    max-width: 280px;
+    position: relative;
+}
+
+.LINE{
+    position: sticky;
+    width: 21vw;
+    size: 1px;
+    position: relative;
+    margin-left:990px;
+    margin-top: 30px;
+}
+
+.buttonsecondary9000{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+   right:-990px;
+   margin-top: 50px;
+
+}
+
+h7{ 
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    left:990px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+h7:hover{
+    text-transform: lowercase;
+    font-style: italic;
+
+}
+
+p5{
+      display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 990px;
+    margin-top: 10px;
+    max-width: 280px;
+    position: relative;
+}
+
+.LINE2{
+    position: sticky;
+    width: 21vw;
+    size: 1px;
+    position: relative;
+    margin-left:990px;
+    margin-top: 30px;
+
+}
+
+.buttonsecondary9001{
+    position: relative;
+   display: flex;
+   justify-content: center;
+   padding:5px;
+    width:8%;
+    height: 100px;
+    font:18px;
+    color: white;
+    font-weight: 700;
+    font-family:'Noto Serif', serif;
+    background-color: gray;
+    height: min-content; 
+   right:-990px;
+   margin-top: 50px;
+
+}
+h8{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    left:990px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+h8:hover{
+    text-transform: lowercase;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    
+}
+
+p6{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    margin-left: 990px;
+    margin-top: 10px;
+    max-width: 280px;
+    position: relative;
+}
+
+.doublebrk{
+    position: sticky;
+    width: 21vw;
+    size: 1px;
+    position: relative;
+    margin-left:990px;
+    margin-top: 30px;
+}
+
+.duble{
+    position: sticky;
+    width: 21vw;
+    size: 1px;
+    position: relative;
+    margin-left:990px;
+    margin-top: 0px;
+}
+
+h9{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    left:990px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+h9:hover{
+    text-transform: lowercase;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    
+}
+
+
+
+.smallsideimage{
+    position: relative;
+    float:left;
+    height: 160px;
+    width:120px;
+    left:980px;
+    margin-top: 20px;
+}
+
+p7{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    max-width: 210px;
+    flex-direction: column;
+    left:990px;
+
+}
+p8{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    max-width: 350px;
+    position: relative;
+    left:990px;
+}
+
+.lrnmore{
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    padding:6px 6px;
+    cursor: pointer;
+    left:990px;
+    margin-top: 20px;
+   
+}
+.lrnmore:hover{
+    background-color:turquoise;
+    transition: ease;
+    transition-duration: .5s;
+    
+}
+
+.anotherline{
+    position: sticky;
+    width: 21vw;
+    size: 1px;
+    position: relative;
+    margin-left:990px;
+    margin-top: 40px;
+
+}
+
+h10{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    left:990px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+h10:hover{
+    text-transform: lowercase;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    
+}
+.smallsideimagedos{
+    position: relative;
+    height: 160px;
+    width:120px;
+    margin-left:980px;
+    margin-top: 15px;
+
+}
+p9{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    position: relative;
+    max-width: 210px;
+    flex-direction: column;
+    left:1130px;
+    top:-170px;
+}
+
+p10{
+    display: flex;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Peddana', serif;
+    color: black;
+    max-width: 350px;
+    position: relative;
+    left:990px;
+    top:-180px;
+}
+.lrnmore2{
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    padding:6px 6px;
+    cursor: pointer;
+    left:990px;
+    margin-top:-160px;
+
+}
+
+.lrnmore2:hover {
+    background-color:turquoise;
+    transition: ease;
+    transition-duration: .5s;
+}
+.h11{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:275px;
+    top:-1700px;
+}
+
+.h12{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Peddana', serif;
+    left:275px;
+    top:-1710px;
+}
+
+.h13{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:450px;
+    top:-1750px;
+}
+.h15{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:275px;
+    top:-1660px;
+}
+p13{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:275px;
+    top:-1660px;
+    max-width: 37vw;;
+
+}
+
+.lrnmore3{
+    left:275px;
+    top:-1640px;
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    padding:6px 6px;
+    cursor: pointer;
+
+}
+.lrnmore3:hover{
+    background-color:turquoise;
+    transition: ease;
+    transition-duration: .5s;
+}
+
+.hitthebreak{
+    position: sticky;
+    width: 38vw;
+    size: 1px;
+    position: relative;
+    left:-180px;
+    top:-1590px;
+
+}
+
+
+.hitthebreak2{
+    position: sticky;
+    width: 38vw;
+    size: 1px;
+    position: relative;
+    left:-180px;
+    top:-1590px;
+}
+
+.anotherphotoline{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    font-family: 'Peddana', serif;
+    left:265px;
+    top:-1540px;
+
+}
+
+.imagesbig {
+    display: flex;
+    flex-direction: center;
+    width: 500px;
+    height:210px;
+    position: relative;
+    left:275px;
+    top:-1700px;
+    border: gray;
+    border-radius: 10px;
+    border-style: double;
+    
+}
+.imagesbig2{
+    display: flex;
+    flex-direction: center;
+    width: 550px;
+    height:210px;
+    position: absolute;
+    left: 255px;
+    top:2310px;
+}
+p18{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 20px;
+    color: black;
+    font-family: 'Peddana', serif;
+    left:275px;
+    top:-1220px;
+    max-width: 37vw;;
+}
+
+.lrnmore4{
+    left:275px;
+    top:-1170px;
+    font:14px;
+    font-family:'Noto Serif', serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-color:orangered ;
+    width:12%;
+    height:35px;
+    position: relative;
+    padding:6px 6px;
+    cursor: pointer;
+
+}
+
+.lrnmore4:hover{
+    background-color:turquoise;
+    transition: ease;
+    transition-duration: .5s;
+}
+
+
+
+.footer {
+    display:flex;
+    position: absolute;
+    height: 500px;
+    width: 100vw;
+    background-color: lightgray;
+    margin-top:-750px;
+    clear:both;
+    
+}
+
+
+
+.blogcomment{
+    display: flex;
+    font-size: 28px;
+    font-weight: 450;
+    font-family: 'Peddana', serif;
+    color: black;
+    min-width: 300px;
+    position: relative;
+    left: 390px;
+    margin-top:95px;
+    min-width: 300px;
+}
+
+#bold{
+    font:bolder;
+    font-weight: 900;
+    font-size: 26px;
+    position: relative;
+    display: inline;
+    top:100px;
+     left:330px;
+     min-width: 300px;
+}
+p20{
+    display: flex;
+    position: relative;
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: 'Peddana', serif;
+    color: black;
+    max-width: 500px;
+    top: 150px;
+    right: -10px;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -410px;
+    left:-410px;
+  
+}
+
+.text1{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    font-family:'Peddana', serif;
+    top: -430px;
+    left:-240px;
+}
+
+.msg{
+    display:flex;
+    position: relative;
+    top:-400px;
+    left:-410px;
+}
+
+.media{
+    height: 30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top: 200px;
+}
+.media1{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:190px;
+
+}
+.media2{
+    height:30px;
+    width:30px;
+    position: relative;
+    right:50px;
+    top:200px;
+
+}
+
+.media3{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+.media4{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+.media5{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+.media6{
+    height:30px;
+    width:30px;
+    position: relative;
+    bottom:60px;
+    right:-230px;
+}
+
+#drib{
+position: relative;
+font-size: 10px;
+right:210px;
+bottom:-155px;
+}
+#mail{
+    position: relative;
+    font-size: 10px;
+    right:210px;
+    bottom:-150px;
+
+}
+#fb{
+    position: relative;
+    font-size: 10px;
+    right:210px;
+    bottom:-165px;
+}
+#address{
+    position: relative;
+    font-size: 10px;
+    left:100px;
+    bottom:90px;
+}
+#IG{
+    position: relative;
+    font-size: 10px;
+    left:70px;
+    bottom:90px;
+}
+#num{
+    position: relative;
+    font-size: 10px;
+    left:70px;
+bottom:90px;
+}
+#twitt{
+    position: relative;
+    font-size: 10px;
+    left:70px;
+    bottom:100px;
+}
+#sendmessage {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    font-family: 'Peddana', serif;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:darkorange;
+    height: max-content;
+    width: 160px;
+    padding:5px 5px;
+    position:relative;
+    top: 400px;
+    left:-885px;
+
+}
+
+#sendmessage:hover{
+background-color:turquoise;
+border-radius: 50%;
+left:50px;
+}
+
