@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* h1 {
+    font-size: 100px;
+} */
+
+/*Title Style, under title text and line breaks*/
+#blogTitle {
+  display: flex;
+  font-size: 7rem;
+  font-weight: 700;
+  justify-content: center;
+  font-family: "Peddana", serif;
+  color: darkorange;
+  margin-top: 10%;
+  text-decoration: none;
+}
+
+#underTitle {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: center;
+  font-family: "Peddana", serif;
+  color: black;
+  margin-top: 2%;
+}
+
+#lineBreak {
+  width: 66vw;
+  size: 1px;
+}
+
+/*Paragraph text styling*/
+#blogText {
+  display: flex;
+  font-size: 2rem;
+  justify-content: center;
+  font-weight: 600;
+  font-family: "Peddana", serif;
+  color: black;
+  margin-top: 5%;
+}
+/* Main blog image*/
+#blogImage {
+  height: 20rem;
+  width: 50rem;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/*Text Flex Container*/
+
+#TextContainerFlex{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60vw;
+    margin-left: 20%;
+}
+
+#Filler {
+  font-size: 1.8rem;
+  justify-content: center;
+  font-weight: 900;
+  font-family: "Peddana", serif;
+  color: black;
+  padding-left: 8%;
+}
+
+#FillerTwo{
+  font-size: 1.8rem;
+  justify-content: center;
+  font-weight: 900;
+  font-family: "Peddana", serif;
+  color: black;
+  padding-left: 8%;
+}
+
+#Content {
+  font-size: 20px;
+  font-weight: 250;
+  font-family: "Peddana", serif;
+  color: black;
+}
+
+#ContentContinued {
+font-size: 20px;
+font-weight: 250;
+font-family: "Peddana", serif;
+color: black;
+ }
+
+#ContentThree{
+font-size: 20px;
+font-weight: 250;
+font-family: "Peddana", serif;
+color: black;
+  }
+
+/*start of footer styling here*/
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    margin-top: 8rem;
+  }
+  
+  #griditem1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 25%;
+  }
+  /**/
+  .footerSubItemContainer {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 25%;
+  }
+  
+  #footerText {
+    max-width: 315px;
+    padding-left: 20px;
+  }
+  
+  .rightSideFooter {
+    float: right;
+  }
+  
+  .textMediaList {
+    width: 50%;
+    float: left;
+    max-width: 50%;
+    padding-top: 3rem;
+  }
+  
+  .mediaList {
+    list-style: none;
+  }
+  
+  .leftList {
+    float: right;
+  }
+  
+  #media,
+  #media1,
+  #media2 {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  
+  #media3,
+  #media4,
+  #media5,
+  #media6 {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+  
+  #learnMoreButton {
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    background-color: orangered;
+    width: 10rem;
+    cursor: pointer;
+    height: fit-content;
+    border: cadetblue 5px solid;
+    border-radius: 5%;
+    padding: auto;
+    text-shadow: 0 0 5px black;
+    margin-bottom: 2rem;
+  }
+  
+  #learnMoreButton:hover {
+    background-color: lightgreen;
+  }
+  
+  #inputText2 {
+    float: right;
+    margin-bottom: 2rem;
+    margin-top: -1.3rem;
+  }
+  
+  #textMessage {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+  

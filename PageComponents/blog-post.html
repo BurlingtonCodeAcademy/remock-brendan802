@@ -1,10 +1,8 @@
 <!DOCTYPE HTML>
-<link href="blog.css" rel="stylesheet" />
+<link href="/Styles/blog.css" rel="stylesheet" />
 <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/yourcode.js"></script>
-
 <html>
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -12,22 +10,23 @@
 
 <body>
   <!--post only title -->
-  <div class="container">
-    <div class="headerbox">
+  <div id= "container">
+    <div id= "headerbox">
       <!--Title Home and underscipt-->
-      <a href="index.html" class="blogtitle"> BLOGZ</a>
-      <h2 class="undertitle">
+      <a href="newIndex.html" id="blogTitle"> BLOGZ</a>
+      <h2 id="underTitle">
         <p> One Of the Top Ten Blogs</p>
       </h2>
-      <hr class="linebreak">
-      <hr class="line2">
+      <hr id="lineBreak">
+      <hr id="lineBreak">
     </div>
-    <h2 class="blogtext"> The Best Blog You've Ever Seen</h2>
+    <h2 id="blogText"> The Best Blog You've Ever Seen</h2>
     <main>
-      <img class="blogimage" img
+      <img id="blogImage" img
         src="https://static01.nyt.com/images/2020/04/30/arts/29river-notebook2/29river-notebook2-videoSixteenByNineJumbo1600.jpg">
       <!--Blog Content, Paragraph Collection-->
-      <h2 class="content"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iceland swag
+      <div id = "TextContainerFlex">
+      <h2 id="Content"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iceland swag
         farm-to-table coloring book mustache austin shabby chic
         semiotics. IPhone tofu selfies blue bottle scenester fingerstache organic vexillologist single-origin coffee
         enamel pin butcher 90's gentrify.
@@ -41,8 +40,9 @@
         Organic hot chicken disrupt, vegan mustache tilde squid enamel pin yr gluten-free tousled chia listicle
         dreamcatcher.
         Waistcoat tattooed post-ironic you probably haven't heard of them irony four loko raw denim fingerstache.
-        Hella occupy intelligentsia ramps.</br></br>
-        <div class="h7">Wiser Words Never Said</div>
+        Hella occupy intelligentsia ramps.</br></br>  </h2>
+        <div id="Filler">Wiser Words Never Said</div>
+        <h2 id="ContentContinued">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 wolf moon
         fanny pack flannel asymmetrical af. Sartorial kinfolk offal narwhal 8-bit locavore. Cray ramps direct trade
         normcore lomo knausgaard locavore selvage photo booth organic green juice.
@@ -57,9 +57,9 @@
         Poke sriracha microdosing subway tile cornhole, occupy chartreuse selvage lo-fi chicharrones yuccie
         intelligentsia thundercats. Williamsburg wolf stumptown tilde lumbersexual mixtape snackwave.
       </h2>
-      <div class="h8">Let's Pay Attention To This Part</div>
+      <div id="FillerTwo">Let's Pay Attention To This Part</div>
       <!--Blog Paragraph Section Continued-->
-      <h2 class='content2'>
+      <h2 id='ContentThree'>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Biodiesel venmo
         before they sold out, bushwick ramps cred distillery brooklyn. Mustache four dollar toast
         bitters messenger bag tumeric, swag flexitarian brunch locavore kombucha. Twee paleo schlitz seitan sustainable
@@ -86,53 +86,69 @@
         actually, pinterest live-edge blue bottle bitters tilde direct trade godard. Pinterest vice artisan, sriracha
         letterpress put a bird on it echo park PBR&B copper mug cold-pressed air plant kickstarter.
       </h2>
-
-      <div>
+          </div>
+        <div>
       </div>
     </main>
     <!--Footer section start-->
     <section class="footer">
-      <span class="blogcomment"> Questions or Comments?</span> &nbsp &nbsp&nbsp<span id="bold">GET IN TOUCH:</span>
-      <div class="footercontent">
-        <p20>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequuntur iusto obcaecati aut
-          placeat ipsam quo, explicabo earum soluta illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-          accusamus!</p20>
-          <!--Media Labels and print-->
-        <img class='media' img src="./footerlink-dribbble.png">
-        <p id='drib'>dribbbl.com</p>
-        <img class='media1' img src="footerlink-email.png">
-        <p id='mail'>82@HOTMAIL.com</p>
-        <img class='media2' img src="footerlink-facebook.png">
-        <p id='fb'>facebook.com</p>
-        <img class='media3' img src="footerlink-home.png">
-        <p id='address'> 69 the Road to Nowhere, Westchester</p>
-        <img class='media4' img src="footerlink-instagram.png">
-        <p id="IG">instagram.com</p>
-        <img class='media5' img src="footerlink-phone.png">
-        <p id="num">(069)420-0420</p>
-        <img class="media6" img src="footerlink-twitter.png">
-        <p id="twitt">@bigkahunas</p>
-
-        <!--Form Input section left side-->
-        <div class="leftform">
-          <form action="#">
-            <div class="text">
-              <input type="Name" required>
-            </div>
-            <div class='text1'>
-              <input type="email" required>
-            </div>
+      <div id="footerBoxContainer">
+        <div id="griditem1">
+          <h7>Questions or Comments?<span style="font-size: 1.5em"> Get In Touch </span></h7>
         </div>
-        <div class="msg">
-          <textarea rows="8" cols="38" required></textarea>
+        <div class="footerSubItemContainer">
+          <div class="textMediaList">
+            <form action="#">
+              <div id="inputText">
+                <input type="Name" required>
+              </div>
+              <div id='inputText2'>
+                <input type="email" required>
+              </div>
+              <br><br>
+          <!--text-type containers-->
+              <div id="textMessage">
+                <textarea rows="8" cols="38" required></textarea>
+              </div>
+            </form>
+            <button id="learnMoreButton">Send Message</button>
+          </div>
+          <div class="textMediaList">
+            <p id="footerText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laudantium architecto quis fugiat recusandae molestias, 
+              delectus voluptate vitae nisi repellendus! Consequuntur corrupti nostrum, sed quos sint nisi officia doloremque nam?
+            </p>
+            <!--media contact list-->
+            <div class="leftList">
+              <ul class="mediaList">
+                <li><img id='media' img src="./footerlink-dribbble.png">dribbbl.com</li><br>
+                <li> <img id='media1' img src="footerlink-email.png">82@HOTMAIL.com</li><br>       
+                <li> <img id='media2' img src="footerlink-facebook.png">facebook.com</li><br>
+              </ul>
+            </div>
+            <div class="rightList">
+              <ul class="mediaList"> 
+                <li>
+                  <img id='media3' img src="footerlink-home.png">
+                   69 the Road to Nowhere, Westchester
+                </li><br> 
+                <li>
+                  <img id='media4' img src="footerlink-instagram.png">
+                  instagram.com
+                </li><br>
+                <li>
+                  <img id='media5' img src="footerlink-phone.png">
+                  (069)420-0420
+                </li><br>
+                <li> 
+                  <img id="media6" img src="footerlink-twitter.png">
+                  @bigkahunas
+                </li><br>
+              </ul>
+            </div>
+          </div>
         </div>
-        </form>
       </div>
-  </div>
-  <button id="sendmessage">
-    <p3>Send Message</p3>
-  </button>
-  </section>
-</body>
-
+    </section>
+  </body>
 </html>
+ 

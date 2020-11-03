@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+/*Title of Index*/
+#title {
+  font-size: 3em;
+  font-weight: normal;
+  font-family: "Noto Serif", serif;
+  color: darkorange;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+/*Sub text of index title*/
+#underTitle {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#pageWelcome {
+  text-align: center;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 8em;
+}
+/*line breaks below index*/
+#break {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 60vw;
+  margin-top: 5em;
+}
+
+#break2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 60vw;
+}
+/*Container profile*/
+.container1 {
+  display: flex;
+  justify-content: center;
+  margin: 5em;
+}
+
+/*starting images-large*/
+
+.images {
+  height: 25vh;
+  width: 15vw;
+  padding: 2rem;
+}
+
+#imagewrapper {
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+/*second container profile*/
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/*basic large button layout*/
+#tellMore {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  background-color: orangered;
+  width: 10%;
+  cursor: pointer;
+  height: fit-content;
+  margin-left: 45%;
+  border: cadetblue 5px solid;
+  border-radius: 5%;
+  padding: auto;
+  text-shadow: 0 0 5px black;
+}
+#tellMore:hover {
+  background-color: lightgreen;
+}
+#banner {
+  position: relative;
+  width: 100%;
+  height: 19rem;
+  margin-top: 5rem;
+  z-index: -1;
+}
+/*Text of hero image*/
+#herotitle {
+  color: white;
+  font-size: 3rem;
+  margin-top: -2em;
+  text-shadow: 0 0 10px black;
+}
+/*side bar grid syle layout*/
+.sidebarGrid {
+  display: grid;
+  grid-template-columns: 1fr 55% 150px;
+}
+
+.leftPage {
+  line-height: 2;
+  display: grid;
+  flex-direction: column;
+  width: 42vw;
+  margin-left: 35%;
+  justify-content: center;
+}
+
+#text {
+  margin-right: 12%;
+}
+
+#imagesBig {
+  width: 40vw;
+  height: 30vh;
+}
+
+#columnText {
+  margin-top: 3rem;
+  max-width: 90%;
+  font-weight: 200;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnLargeText {
+  margin-top: 3rem;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.columnLargeText:hover {
+  color: red;
+}
+
+/*button style-large*/
+#readMore {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  background-color: orangered;
+  width: 25%;
+  cursor: pointer;
+  height: fit-content;
+  border: cadetblue 5px solid;
+  border-radius: 5%;
+  padding: auto;
+  text-shadow: 0 0 5px black;
+  margin-bottom: 2rem;
+}
+/*hover accent style on larger button*/
+#readMore:hover {
+  background-color: lightgreen;
+}
+
+#break1 {
+  width: 43vw;
+  margin-right: 3em;
+}
+#break1- {
+  width: 43vw;
+  margin-right: 3em;
+}
+/* right side of page distribution- flex*/
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0%;
+  margin-left: 40%;
+  margin-top: 20%;
+  max-width: 20rem;
+}
+/*small secondary button style*/
+#buttonSecondary {
+  padding: 5px;
+  width: 35%;
+  height: 100px;
+  font: 12px;
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  height: min-content;
+  margin-top: 10%;
+}
+#buttonSecondary:hover {
+  cursor: pointer;
+  background-color: indigo;
+  border-radius: 10%;
+}
+
+#anotherPost {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#anotherPost:hover {
+  color: red;
+}
+/*line break styling*/
+#break3,
+#break4,
+#break5,
+#break6 {
+  width: 23vw;
+  margin-bottom: auto;
+  margin-top: 8%;
+}
+
+#smallSideImage {
+  height: 8rem;
+  width: 8rem;
+  float: left;
+}
+
+#textFloat {
+  display: flex;
+  flex-flow: wrap;
+  float: right;
+}
+/*start of footer styling here*/
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  margin-top: 8rem;
+}
+
+#griditem1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 25%;
+}
+
+.footerSubItemContainer {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 25%;
+}
+
+#footerText {
+  max-width: 315px;
+  padding-left: 20px;
+}
+
+.rightSideFooter {
+  float: right;
+}
+
+.textMediaList {
+  width: 50%;
+  float: left;
+  max-width: 50%;
+  padding-top: 3rem;
+}
+
+.mediaList {
+  list-style: none;
+}
+
+.leftList {
+  float: right;
+}
+
+#media,
+#media1,
+#media2 {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+#media3,
+#media4,
+#media5,
+#media6 {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+#learnMoreButton {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  background-color: orangered;
+  width: 10rem;
+  cursor: pointer;
+  height: fit-content;
+  border: cadetblue 5px solid;
+  border-radius: 5%;
+  padding: auto;
+  text-shadow: 0 0 5px black;
+  margin-bottom: 2rem;
+}
+
+#learnMoreButton:hover {
+  background-color: lightgreen;
+}
+
+#inputText2 {
+  float: right;
+  margin-bottom: 2rem;
+  margin-top: -1.3rem;
+}
+
+#textMessage {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}

@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* top flex Container centered column*/
+
+.topFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#title_ {
+  font-size: 3em;
+  font-weight: normal;
+  font-family: "Noto Serif", serif;
+  color: darkorange;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*line breaks under title */
+#line_ {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 60vw;
+  margin-top: 5em;
+  margin-left: 15rem;
+}
+
+#line2_ {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 60vw;
+  margin-left: 15rem;
+  margin-bottom: 10rem;
+}
+/* page right flex layout-column*/
+.pageRight {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35rem;
+}
+
+#topText {
+  margin-bottom: 5rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*large picture css */
+#doubleWide {
+  height: 30vh;
+  width: 40vw;
+  margin-bottom: 3rem;
+}
+
+#underSnippet {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  max-width: 35rem;
+}
+/*left page layout */
+.leftPage {
+  float: left;
+  max-width: 20rem;
+  margin-left: 10rem;
+  margin-top: -82rem;
+}
+
+#smoll {
+  height: 10vh;
+  width: 10vw;
+  float: left;
+  margin: 10px;
+}
+/*left page text style */
+.leftPageColumn {
+  line-height: 1.2;
+  margin: 1.5rem;
+}
+
+/*standard grey button style */
+#leftButton {
+  padding: 5px;
+  width: 35%;
+  height: 5vh;
+  font: 18px;
+  color: white;
+  font-weight: 700;
+  background-color: lightslategrey;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+/* grey button hover style*/
+#leftButton:hover {
+  background-color: mediumorchid;
+  border-radius: 10%;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 1.2rem;
+}
+
+p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+/* side line breaks*/
+#sideLine {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#doubleLine {
+  margin-top: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#doubleLine_ {
+  margin-bottom: 3.5rem;
+}
+/* standard larger button styling*/
+#moarLearn {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  background-color: orangered;
+  width: 45%;
+  cursor: pointer;
+  height: fit-content;
+  border: cadetblue 5px solid;
+  border-radius: 5%;
+  padding: auto;
+  text-shadow: 0 0 5px black;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+/* large button hover style*/
+#moarLearn:hover {
+  background-color: lightgreen;
+}
+
+.floatWrap {
+  float: left;
+}
+/* beginning of footer styling*/
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+  margin-top: 15rem;
+  width: 100vw;
+}
+
+#griditem1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding-top: 25%;
+}
+
+.footerSubItemContainer {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 25%;
+}
+
+#footerText {
+  max-width: 315px;
+  padding-left: 20px;
+}
+
+.rightSideFooter {
+  float: right;
+}
+
+.textMediaList {
+  width: 50%;
+  float: left;
+  max-width: 50%;
+  padding-top: 3rem;
+}
+
+.mediaList {
+  list-style: none;
+}
+
+.leftList {
+  float: right;
+}
+/* media tags*/
+#media,
+#media1,
+#media2 {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+#media3,
+#media4,
+#media5,
+#media6 {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+/* large button styling*/
+#learnMoreButton {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  background-color: orangered;
+  width: 10rem;
+  cursor: pointer;
+  height: fit-content;
+  border: cadetblue 5px solid;
+  border-radius: 5%;
+  padding: auto;
+  text-shadow: 0 0 5px black;
+  margin-bottom: 2rem;
+}
+
+#learnMoreButton:hover {
+  background-color: lightgreen;
+}
+
+#inputText2 {
+  float: right;
+  margin-bottom: 2rem;
+  margin-top: -1.3rem;
+}
+
+#textMessage {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
