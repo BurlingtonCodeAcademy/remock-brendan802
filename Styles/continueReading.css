@@ -1,101 +1,106 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
-h2 {
+/* top flex Container centered column*/
+
+#TopContentFlex {
   display: flex;
-  font-size: 14px;
+  flex-direction: column;
   justify-content: center;
-  color: black;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-/*title of page*/
-#continueTitle {
-  display: flex;
-  font-size: 80px;
-  font-weight: 700;
-  justify-content: center;
-  font-family: "Peddana", serif;
-  color: darkorange;
-  margin-top: 50px;
-  text-decoration: none;
-}
-/*line breaks under title*/
-#lineBreak {
-  width: 65vw;
-  size: 1px;
-  margin-top: 10%;
-}
-#lineBreak2 {
-  width: 65vw;
-  size: 1px;
-  margin-top: 1px;
-}
-/*left side page distribution*/
-.leftSidePage {
-  margin-left: 10%;
-  max-width: 40vw;
-  position: absolute;
 }
 
-h1 {
-  position: sticky;
-  position: absolute;
-  font-size: 2.1rem;
-  justify-content: left;
-  font-weight: 300;
-  font-family: "Peddana", serif;
-  color: black;
-  position: relative;
-  margin-left: 20%;
-  margin-top: -255%;
+#continueTitle {
+  font-size: 3em;
+  font-weight: normal;
+  font-family: "Noto Serif", serif;
+  color: darkorange;
+  font-weight: 600;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  text-decoration: none;
 }
-/*first large image style*/
-#firstImage {
+
+h2 {
+  text-align: center;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*line breaks under title */
+#lineBreak {
   display: flex;
+  position: relative;
   justify-content: center;
-  height: 18rem;
-  width: 35rem;
-  margin-left: 18%;
-  margin-top: 5%;
+  width: 60vw;
+  margin-top: 5em;
+  margin-left: 15rem;
+}
+
+#lineBreak2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 60vw;
+  margin-left: 15rem;
+  margin-bottom: 10rem;
+}
+/* page right flex layout-column*/
+#leftSidePage {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+#largeText {
+  margin-bottom: 5rem;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*large picture css */
+#firstImage {
+  height: 30vh;
+  width: 40vw;
+  margin-bottom: 3rem;
 }
 
 #underImageText {
-  font-size: 22px;
-  font-weight: 600;
-  font-family: "Peddana", serif;
-  color: black;
-  margin-left: 20%;
-  margin-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1rem;
+  font-weight: 800;
 }
-/*Under image paragraph text styling*/
-#underImageParagraph {
-  display: flex;
-  font-size: 1.3rem;
-  font-weight: 500;
-  width: 40vw;
-  font-family: "Peddana", serif;
-  color: black;
-  margin-left: 17%;
-  margin-top: 3%;
-  padding: 0;
+
+p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  max-width: 35rem;
 }
-/*Right side of page flex-wrap*/
-#rightWrap {
-  display: flex;
-  flex-direction: column;
-  margin-left: 62%;
-  margin-top: 10%;
+/* Main Text size and line height*/
+#mainText {
+  line-height: 2;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Right Side Column Styling*/
+.rightWrap {
+  float: right;
   max-width: 20rem;
+  margin-right: 10rem;
+  margin-top: -105rem
 }
-/* Grey Side Button styling*/
-#sideButton {
-  margin-top:5%;
-  padding: 4px;
+.rightWrapColumn {
+  line-height: 1.2;
+  margin: 1.5rem;
+}
+/*standard grey button style */
+.sideButton {
+  padding: 5px;
   width: 35%;
-  height: 4vh;
+  height: 5vh;
   font: 18px;
   color: white;
   font-weight: 700;
@@ -104,54 +109,46 @@ h1 {
   cursor: pointer;
 }
 
-#sideButton:hover{
-  background-color: indigo;
+#SideButton {
+  padding: 5px;
+  width: 35%;
+  height: 5vh;
+  font: 18px;
+  color: white;
+  font-weight: 700;
+  background-color: lightslategrey;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+/* side line breaks*/
+.sideLine {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+#SideLine {
+  margin-top: 5%;
+  margin-bottom: 3rem;
+}
+
+#DoubleLine {
+  margin-top: 2.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#DoubleLine_ {
+  margin-bottom: 3.5rem;
+}
+
+/* grey button hover style*/
+.sideButton:hover {
+  background-color: mediumorchid;
   border-radius: 10%;
 }
-/*large side text style*/
-.largeColumnText {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
-  font-size: 16px;
-  margin-bottom: 1.2rem;
-  margin-top: 10%;
-}
-.largeColumnText:hover{
-  color: red;
-}
 
-h4:hover {
-  color: midnightblue;
-  text-transform: capitalize;
-}
-/* small side text*/
-#columnText {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 14px;
-  margin-bottom: 10%;
-}
-.sideline {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-/* Hover accent for large side text*/
-h4:hover {
-  color: midnightblue;
-  text-transform: capitalize;
-}
-
-
-/*Small Side Image Style*/
-.supaSmall {
-  height:8rem;
-  width:8rem;
-  float:left;
-  margin:10px;
-}
-
-/*Large side button styling*/
+/* standard larger button styling*/
 .learnSomething {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -165,12 +162,20 @@ h4:hover {
   height: fit-content;
   border: cadetblue 5px solid;
   border-radius: 5%;
+  padding: auto;
   text-shadow: 0 0 5px black;
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+/* large button hover style*/
+.learnSomething:hover {
+  background-color: lightgreen;
 }
 
-.learnSomething:hover{
-  background-color:cadetblue
+.supaSmall {
+  height: 15vh;
+  width: 10vw;
+  float: left;
+  margin: 10px;
 }
 
 /*Start of footer styling here*/

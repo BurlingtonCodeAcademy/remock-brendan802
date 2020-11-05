@@ -76,16 +76,24 @@ p {
   line-height: 1.5;
   max-width: 35rem;
 }
+
+/* main text styling*/
+.paragraph{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
 /*left page layout */
 .leftPage {
   float: left;
   max-width: 20rem;
   margin-left: 10rem;
-  margin-top: -82rem;
+  margin-top: -110rem;
 }
 
-#smoll {
-  height: 10vh;
+.smoll {
+  height: 15vh;
   width: 10vw;
   float: left;
   margin: 10px;
@@ -97,7 +105,7 @@ p {
 }
 
 /*standard grey button style */
-#leftButton {
+.leftButton {
   padding: 5px;
   width: 35%;
   height: 5vh;
@@ -121,13 +129,8 @@ h4 {
   margin-bottom: 1.2rem;
 }
 
-p2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-}
 /* side line breaks*/
-#sideLine {
+.sideLine {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
@@ -141,7 +144,7 @@ p2 {
   margin-bottom: 3.5rem;
 }
 /* standard larger button styling*/
-#moarLearn {
+.moarLearn {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -160,13 +163,10 @@ p2 {
   margin-left: 2rem;
 }
 /* large button hover style*/
-#moarLearn:hover {
+.moarLearn:hover {
   background-color: lightgreen;
 }
 
-.floatWrap {
-  float: left;
-}
 /* beginning of footer styling*/
 .footer {
   display: flex;
